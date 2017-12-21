@@ -1,0 +1,441 @@
+2017-12-20 14:12:04.717 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 14:12:04.723 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:04.780 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:04.886 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.037 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.242 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.312 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 14:12:05.316 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.320 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:05.371 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.477 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.495 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.634 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.798 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.836 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:06.088 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:06.150 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:06.393 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:06.553 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:06.750 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:07.004 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:07.154 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:19.682 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 14:12:19.689 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:19.747 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:19.849 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.004 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.204 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.340 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:20.345 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 14:12:20.347 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.399 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.460 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.502 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.653 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.761 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.855 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.107 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.113 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.411 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.517 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.763 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.969 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:22.164 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:22.474 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:22.617 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:23.025 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:23.117 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:23.630 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:23.671 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:24.275 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:24.282 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:24.931 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:24.988 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:25.633 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:25.741 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:26.387 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:26.544 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:27.188 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:27.395 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:28.040 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:28.300 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:28.944 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:29.253 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:29.901 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:30.260 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:30.904 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:31.313 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:31.954 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:32.417 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:33.056 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:33.569 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:34.208 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:34.772 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:35.409 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:36.023 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:36.664 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:37.324 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:37.969 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:38.675 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:39.322 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:40.076 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:40.723 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:41.532 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:42.175 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:43.033 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:43.677 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:44.584 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:45.230 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:46.186 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:46.834 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:47.837 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:48.489 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:49.538 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:50.193 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:51.289 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:51.943 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:53.091 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:53.745 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:54.944 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:55.601 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:56.849 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:57.509 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:58.806 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:59.466 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:00.811 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:01.468 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:02.812 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:03.469 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:04.814 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:05.470 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:06.817 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:07.472 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:08.822 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:09.476 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:10.827 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:11.478 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:12.828 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:13.481 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:14.830 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:15.482 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:16.831 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:17.482 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:18.832 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:19.485 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:20.834 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:21.491 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:22.836 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:23.495 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:24.838 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:25.497 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:26.840 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:27.501 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:28.842 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:29.502 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:30.849 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:31.504 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:32.850 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:33.509 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:34.854 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:35.513 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 14:12:36.859 [main] INFO RedisIniter - connect
+2017-12-20 14:12:36.863 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:37.517 [main] INFO RedisIniter - connect
+2017-12-20 14:12:37.522 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:13.777 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:35.102 [main] INFO RedisIniter - connect
+2017-12-20 14:12:35.125 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:35.132 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:35.806 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:35.816 [main] INFO RedisIniter - connect
+2017-12-20 14:12:35.825 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:35.828 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:39.222 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:56.349 [main] INFO RedisIniter - connect
+2017-12-20 14:12:56.360 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:56.363 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:56.923 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:56.931 [main] INFO RedisIniter - connect
+2017-12-20 14:12:56.940 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:56.942 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:01.935 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:13.250 [main] INFO RedisIniter - connect
+2017-12-20 14:12:13.259 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:13.263 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:13.843 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:13.850 [main] INFO RedisIniter - connect
+2017-12-20 14:12:13.855 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:13.858 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:19.450 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:46.875 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:45.444 [main] INFO RedisIniter - connect
+2017-12-20 14:12:45.455 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:45.457 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:46.058 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:46.068 [main] INFO RedisIniter - connect
+2017-12-20 14:12:46.075 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:46.078 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:48.701 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:36.091 [main] INFO RedisIniter - connect
+2017-12-20 14:12:36.102 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:36.106 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:36.759 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:36.769 [main] INFO RedisIniter - connect
+2017-12-20 14:12:36.777 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:36.780 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:38.243 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:58.128 [main] INFO RedisIniter - connect
+2017-12-20 14:12:58.141 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:58.145 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:58.854 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:58.863 [main] INFO RedisIniter - connect
+2017-12-20 14:12:58.871 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:58.874 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:00.201 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:11.258 [main] INFO RedisIniter - connect
+2017-12-20 14:12:11.272 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:11.276 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:11.959 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:11.969 [main] INFO RedisIniter - connect
+2017-12-20 14:12:11.976 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:11.979 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:14.000 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:26.550 [main] INFO RedisIniter - connect
+2017-12-20 14:12:26.564 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:26.567 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:27.197 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:27.205 [main] INFO RedisIniter - connect
+2017-12-20 14:12:27.214 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:27.219 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:37.159 [main] INFO RedisIniter - connect
+2017-12-20 14:12:37.172 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:37.175 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:37.841 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:37.851 [main] INFO RedisIniter - connect
+2017-12-20 14:12:37.859 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:37.862 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:40.118 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:54.012 [main] INFO RedisIniter - connect
+2017-12-20 14:12:54.022 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:54.025 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:54.600 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:54.608 [main] INFO RedisIniter - connect
+2017-12-20 14:12:54.614 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:54.616 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:57.863 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:19.462 [main] INFO RedisIniter - connect
+2017-12-20 14:12:19.473 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:19.475 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:20.082 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:20.091 [main] INFO RedisIniter - connect
+2017-12-20 14:12:20.100 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:20.102 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:26.596 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:38.872 [main] INFO RedisIniter - connect
+2017-12-20 14:12:38.882 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:38.884 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:39.519 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:39.528 [main] INFO RedisIniter - connect
+2017-12-20 14:12:39.534 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:39.537 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:43.510 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:59.792 [main] INFO RedisIniter - connect
+2017-12-20 14:12:59.804 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:59.808 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:00.462 [main] INFO server - 服务器端口：7082
+2017-12-20 14:12:00.472 [main] INFO RedisIniter - connect
+2017-12-20 14:12:00.483 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 14:12:00.488 [main] INFO RedisIniter - Ready
+2017-12-20 14:12:03.654 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 14:12:05.030 [main] INFO ControllerWx - wx  user get code Api Call
+2017-12-20 15:12:02.377 [main] INFO RedisIniter - connect
+2017-12-20 15:12:02.390 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:02.394 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:03.038 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:03.047 [main] INFO RedisIniter - connect
+2017-12-20 15:12:03.055 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:03.059 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:28.432 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:12.769 [main] INFO RedisIniter - connect
+2017-12-20 15:12:12.782 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:12.786 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:13.473 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:13.482 [main] INFO RedisIniter - connect
+2017-12-20 15:12:13.490 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:13.492 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:15.885 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:14.714 [main] INFO RedisIniter - connect
+2017-12-20 15:12:14.726 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:14.729 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:15.428 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:15.437 [main] INFO RedisIniter - connect
+2017-12-20 15:12:15.445 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:15.448 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:18.092 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:34.756 [main] INFO RedisIniter - connect
+2017-12-20 15:12:34.767 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:34.771 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:35.425 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:35.438 [main] INFO RedisIniter - connect
+2017-12-20 15:12:35.446 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:35.449 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:55.380 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:15.220 [main] INFO RedisIniter - connect
+2017-12-20 15:12:15.232 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:15.236 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:15.833 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:15.842 [main] INFO RedisIniter - connect
+2017-12-20 15:12:15.850 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:15.853 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:32.498 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:09.893 [main] INFO RedisIniter - connect
+2017-12-20 15:12:09.906 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:09.910 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:10.614 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:10.623 [main] INFO RedisIniter - connect
+2017-12-20 15:12:10.631 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:10.633 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:13.233 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:48.149 [main] INFO RedisIniter - connect
+2017-12-20 15:12:48.162 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:48.166 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:48.868 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:48.877 [main] INFO RedisIniter - connect
+2017-12-20 15:12:48.885 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:48.889 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:52.572 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:48.714 [main] INFO RedisIniter - connect
+2017-12-20 15:12:48.727 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:48.730 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:49.403 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:49.414 [main] INFO RedisIniter - connect
+2017-12-20 15:12:49.424 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:49.428 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:02.568 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:02.573 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:33.588 [main] INFO RedisIniter - connect
+2017-12-20 15:12:33.601 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:33.604 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:34.391 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:34.400 [main] INFO RedisIniter - connect
+2017-12-20 15:12:34.409 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:34.412 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:39.818 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:54.177 [main] INFO RedisIniter - connect
+2017-12-20 15:12:54.190 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:54.193 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:54.924 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:54.933 [main] INFO RedisIniter - connect
+2017-12-20 15:12:54.941 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:54.943 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:56.733 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:51.933 [main] INFO RedisIniter - connect
+2017-12-20 15:12:51.946 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:51.950 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:52.686 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:52.695 [main] INFO RedisIniter - connect
+2017-12-20 15:12:52.711 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:52.715 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:53.902 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:53.898 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:05.128 [main] INFO RedisIniter - connect
+2017-12-20 15:12:05.140 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:05.143 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:05.769 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:05.777 [main] INFO RedisIniter - connect
+2017-12-20 15:12:05.786 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:05.789 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:09.972 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:33.745 [main] INFO RedisIniter - connect
+2017-12-20 15:12:33.758 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:33.762 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:34.489 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:34.498 [main] INFO RedisIniter - connect
+2017-12-20 15:12:34.507 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:34.510 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:36.335 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:59.952 [main] INFO RedisIniter - connect
+2017-12-20 15:12:59.975 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:59.983 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:00.671 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:00.681 [main] INFO RedisIniter - connect
+2017-12-20 15:12:00.692 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:00.695 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:02.179 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:02.180 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:47.293 [main] INFO RedisIniter - connect
+2017-12-20 15:12:47.307 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:47.310 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:47.994 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:48.002 [main] INFO RedisIniter - connect
+2017-12-20 15:12:48.010 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:48.014 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:51.365 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:01.309 [main] INFO RedisIniter - connect
+2017-12-20 15:12:01.321 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:01.325 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:01.937 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:01.945 [main] INFO RedisIniter - connect
+2017-12-20 15:12:01.952 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:01.955 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:06.545 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:15.247 [main] INFO RedisIniter - connect
+2017-12-20 15:12:15.260 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:15.264 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:15.943 [main] INFO server - 服务器端口：7082
+2017-12-20 15:12:15.952 [main] INFO RedisIniter - connect
+2017-12-20 15:12:15.960 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 15:12:15.963 [main] INFO RedisIniter - Ready
+2017-12-20 15:12:17.497 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 15:12:09.292 [main] INFO ControllerWx - wx  create order Api Call
+2017-12-20 22:12:08.991 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 22:12:08.995 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.050 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.157 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.312 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.514 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.552 [main] INFO server - 服务器端口：7082
+2017-12-20 22:12:09.557 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 22:12:09.558 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.615 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.721 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.768 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.872 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.076 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.076 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.333 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.432 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.639 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.839 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:10.996 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:11.296 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:11.402 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:11.797 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:11.856 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 22:12:09.851 [main] INFO RedisIniter - connect
+2017-12-20 22:12:09.860 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 22:12:09.862 [main] INFO RedisIniter - Ready
+2017-12-20 22:12:10.388 [main] INFO server - 服务器端口：7082
+2017-12-20 22:12:10.396 [main] INFO RedisIniter - connect
+2017-12-20 22:12:10.402 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 22:12:10.404 [main] INFO RedisIniter - Ready
+2017-12-20 22:12:42.476 [main] INFO RedisIniter - connect
+2017-12-20 22:12:42.485 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 22:12:42.488 [main] INFO RedisIniter - Ready
+2017-12-20 22:12:43.011 [main] INFO server - 服务器端口：7082
+2017-12-20 22:12:43.018 [main] INFO RedisIniter - connect
+2017-12-20 22:12:43.024 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 22:12:43.026 [main] INFO RedisIniter - Ready
+2017-12-20 23:12:21.884 [main] INFO RedisIniter - connect
+2017-12-20 23:12:21.893 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 23:12:21.896 [main] INFO RedisIniter - Ready
+2017-12-20 23:12:22.409 [main] INFO server - 服务器端口：7082
+2017-12-20 23:12:22.417 [main] INFO RedisIniter - connect
+2017-12-20 23:12:22.422 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 23:12:22.424 [main] INFO RedisIniter - Ready
+2017-12-20 23:12:23.666 [main] INFO RedisIniter - connect
+2017-12-20 23:12:23.673 [main] INFO RedisIniter - Ready
+2017-12-20 23:12:24.009 [main] INFO server - 服务器端口：7082
+2017-12-20 23:12:24.011 [main] INFO RedisIniter - connect
+2017-12-20 23:12:24.015 [main] INFO RedisIniter - Ready

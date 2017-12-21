@@ -1,0 +1,17 @@
+{
+  "name": "DeliverWater",
+  "PORT": "7082",
+  "model": "dev",
+  "desc": "送水服务器AllInOne",
+  "Register": "59.110.168.95",
+  "Address": "http://59.110.168.95/deliverwater",
+  "PVersion": "V1.1.1",
+  "profiles":{
+    "active":"al92e"
+  },
+  "wx":{
+    "appid":"wxc3b385d115ab8fb5",
+    "secret":"4f39f696765a353d47cfee63d8353bb4",
+    "notify_url":"https://aaa.bigfacewo.com/dwssserverso/order_notify"
+  }
+}

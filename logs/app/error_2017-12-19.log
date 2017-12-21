@@ -1,0 +1,168 @@
+2017-12-19 10:12:41.018 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-19 10:12:41.022 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:41.223 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:41.569 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:41.649 [main] ERROR MongoseIniter - [object Object]
+2017-12-19 10:12:41.651 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:41.857 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:42.154 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:42.198 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:42.783 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:43.142 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:43.771 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:08.046 [main] ERROR server - ReferenceError: DB_NUMBER is not defined
+2017-12-19 10:12:08.046 [main] ERROR server - ReferenceError: DB_NUMBER is not defined
+    at RedisClient.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/app/db/redis.init.js:46:21)
+    at RedisClient.emit (events.js:159:13)
+    at RedisClient.on_connect (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis@2.8.0@redis/index.js:422:10)
+    at Socket.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis@2.8.0@redis/index.js:268:14)
+    at Object.onceWrapper (events.js:254:19)
+    at Socket.emit (events.js:164:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:10)
+2017-12-19 10:12:08.696 [main] ERROR server - Error: DB_NUMBER is not defined
+2017-12-19 10:12:08.697 [main] ERROR server - ReferenceError: DB_NUMBER is not defined
+    at RedisClient.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/app/db/redis.init.js:46:21)
+    at RedisClient.emit (events.js:159:13)
+    at RedisClient.on_connect (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis@2.8.0@redis/index.js:422:10)
+    at Socket.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis@2.8.0@redis/index.js:268:14)
+    at Object.onceWrapper (events.js:254:19)
+    at Socket.emit (events.js:164:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:10)
+2017-12-19 10:12:29.137 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:29.137 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:29.484 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:29.483 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:30.064 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:30.064 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:31.051 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:31.051 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:32.722 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:32.727 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:35.569 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:35.574 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:40.405 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 10:12:40.405 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.578 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.579 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:15.580 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.578 [main] ERROR server - [object Object]
+2017-12-19 11:12:15.579 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:15.579 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.924 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.924 [main] ERROR server - [object Object]
+2017-12-19 11:12:15.925 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:15.927 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.927 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:15.927 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:16.506 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:16.506 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:16.507 [main] ERROR server - [object Object]
+2017-12-19 11:12:16.507 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:16.508 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:16.509 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:17.492 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:17.492 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:17.492 [main] ERROR server - [object Object]
+2017-12-19 11:12:17.493 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:17.494 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:17.494 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:19.165 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:19.165 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:19.165 [main] ERROR server - [object Object]
+2017-12-19 11:12:19.165 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:19.167 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:19.167 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:22.012 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:22.013 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:22.013 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 11:12:22.012 [main] ERROR RedisIniter - error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+2017-12-19 11:12:22.012 [main] ERROR server - [object Object]
+2017-12-19 11:12:22.012 [main] ERROR server - Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1031:13)
+    at _exceptionWithHostPort (util.js:1052:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1195:14)
+2017-12-19 12:12:59.066 [main] ERROR server - TypeError: redis.lrem is not a function
+2017-12-19 12:12:59.068 [main] ERROR server - TypeError: redis.lrem is not a function
+    at Redis.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/app/db/redis.init.js:46:15)
+    at Redis.emit (events.js:159:13)
+    at Redis.exports.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:116:14)
+    at JavascriptRedisParser.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:27:13)
+    at JavascriptRedisParser.execute (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis-parser@2.6.0@redis-parser/lib/parser.js:574:12)
+    at Socket.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:159:13)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+2017-12-19 12:12:59.065 [main] ERROR server - Error: redis.lrem is not a function
+2017-12-19 12:12:59.067 [main] ERROR server - TypeError: redis.lrem is not a function
+    at Redis.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/app/db/redis.init.js:46:15)
+    at Redis.emit (events.js:159:13)
+    at Redis.exports.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:116:14)
+    at JavascriptRedisParser.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:27:13)
+    at JavascriptRedisParser.execute (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis-parser@2.6.0@redis-parser/lib/parser.js:574:12)
+    at Socket.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:159:13)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+2017-12-19 12:12:14.468 [main] ERROR server - TypeError: redis.lrem is not a function
+2017-12-19 12:12:14.470 [main] ERROR server - TypeError: redis.lrem is not a function
+    at Redis.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/app/db/redis.init.js:46:15)
+    at Redis.emit (events.js:159:13)
+    at Redis.exports.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:116:14)
+    at JavascriptRedisParser.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:27:13)
+    at JavascriptRedisParser.execute (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis-parser@2.6.0@redis-parser/lib/parser.js:574:12)
+    at Socket.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:159:13)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
+2017-12-19 12:12:14.468 [main] ERROR server - Error: redis.lrem is not a function
+2017-12-19 12:12:14.469 [main] ERROR server - TypeError: redis.lrem is not a function
+    at Redis.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/app/db/redis.init.js:46:15)
+    at Redis.emit (events.js:159:13)
+    at Redis.exports.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:116:14)
+    at JavascriptRedisParser.returnReply (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/parser.js:27:13)
+    at JavascriptRedisParser.execute (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_redis-parser@2.6.0@redis-parser/lib/parser.js:574:12)
+    at Socket.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWater/node_modules/_ioredis@3.2.2@ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:159:13)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:598:20)
