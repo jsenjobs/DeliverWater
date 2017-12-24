@@ -1,5 +1,7 @@
+let aliControllerC = require('./aliController.js')
 let appC = require('./app.js')
 let wxControllerC = require('./wxController.js')
+let wxTinyControllerC = require('./wxTinyController.js')
 // @require
 
 /*
@@ -43,11 +45,13 @@ let jwtCheck = ejwt({
 */
 exports.boot = function(app) {
   // @start
+  app.get('/prepay/ali/:openid/:type/:num',aliControllerC.createAliPrepayOrder)
   app.get('/app/status',appC.status)
   app.get('/app/listinfo',appC.listinfo)
   app.get('/app/getLog',appC.getLog)
-  app.post('/wx/onLogin',wxControllerC.wxOnLogin)
-  app.post('/wx/createPreOrder',wxControllerC.createOrder)
+  app.get('/prepay/wx/:openid/:type/:num',wxControllerC.wxCreateOrder)
+  app.post('/wx/onLogin',wxTinyControllerC.wxOnLogin)
+  app.post('/wx/createPreOrder',wxTinyControllerC.createOrder)
   // @end
 
 }

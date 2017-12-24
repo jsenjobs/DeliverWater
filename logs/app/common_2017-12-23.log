@@ -1,0 +1,47 @@
+2017-12-23 00:12:20.713 [main] INFO RedisIniter - connect
+2017-12-23 00:12:20.723 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:21.085 [main] INFO server - 服务器端口：7082
+2017-12-23 00:12:21.088 [main] INFO RedisIniter - connect
+2017-12-23 00:12:21.092 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:43.151 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 00:12:14.730 [main] INFO RedisIniter - connect
+2017-12-23 00:12:14.738 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:15.198 [main] INFO server - 服务器端口：7082
+2017-12-23 00:12:15.201 [main] INFO RedisIniter - connect
+2017-12-23 00:12:15.220 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:17.997 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 00:12:44.972 [main] INFO RedisIniter - connect
+2017-12-23 00:12:44.979 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:45.388 [main] INFO server - 服务器端口：7082
+2017-12-23 00:12:45.391 [main] INFO RedisIniter - connect
+2017-12-23 00:12:45.398 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:50.759 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 00:12:09.198 [main] INFO RedisIniter - connect
+2017-12-23 00:12:09.208 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:09.638 [main] INFO server - 服务器端口：7082
+2017-12-23 00:12:09.640 [main] INFO RedisIniter - connect
+2017-12-23 00:12:09.645 [main] INFO RedisIniter - Ready
+2017-12-23 00:12:12.215 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 01:12:08.971 [main] INFO RedisIniter - connect
+2017-12-23 01:12:08.978 [main] INFO RedisIniter - Ready
+2017-12-23 01:12:09.332 [main] INFO server - 服务器端口：7082
+2017-12-23 01:12:09.335 [main] INFO RedisIniter - connect
+2017-12-23 01:12:09.339 [main] INFO RedisIniter - Ready
+2017-12-23 01:12:13.470 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 01:12:18.194 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 01:12:21.561 [main] INFO ControllerWx - wxCreateOrder Api Call
+2017-12-23 01:12:36.832 [main] INFO ControllerAli - createAliPrepayOrder Api Call
+2017-12-23 01:12:22.184 [main] INFO RedisIniter - connect
+2017-12-23 01:12:22.192 [main] INFO RedisIniter - Ready
+2017-12-23 01:12:22.639 [main] INFO server - 服务器端口：7082
+2017-12-23 01:12:22.641 [main] INFO RedisIniter - connect
+2017-12-23 01:12:22.646 [main] INFO RedisIniter - Ready
+2017-12-23 01:12:56.368 [main] INFO ControllerAli - aliPayAsyncNotify Api Call
+2017-12-23 01:12:14.957 [main] INFO ControllerAli - aliPayAsyncNotify Api Call
+2017-12-23 01:12:15.938 [main] INFO ControllerAli - aliPayAsyncNotify Api Call
+2017-12-23 01:12:32.560 [main] INFO RedisIniter - connect
+2017-12-23 01:12:32.567 [main] INFO RedisIniter - Ready
+2017-12-23 01:12:32.930 [main] INFO server - 服务器端口：7082
+2017-12-23 01:12:32.933 [main] INFO RedisIniter - connect
+2017-12-23 01:12:32.938 [main] INFO RedisIniter - Ready
+2017-12-23 01:12:35.399 [main] INFO ControllerAli - aliPayAsyncNotify Api Call

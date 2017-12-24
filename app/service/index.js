@@ -1,5 +1,9 @@
+let payAli = require('./payAli')
+let payWx = require('./payWx')
 let paywechat = require('./paywechat')
 let models = {
+	'payAli' : payAli,
+	'payWx' : payWx,
 	'paywechat' : paywechat,
 }
 

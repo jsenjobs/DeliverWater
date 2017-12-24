@@ -1,18 +1,18 @@
 let log4js = require('log4js');
-let logger = log4js.getLogger('ControllerWx');
+let logger = log4js.getLogger('ControllerAli');
 
 
 /**
-    @name wxCreatePreOrder
-    @link /prepay/wx/:openid/:type/:num
+    @name createAliPreOrder
+    @link /prepay/ali/:openid/:type/:num
     @method GET
     @desc 创建预订单 (https)
     @param {'name':'type','type':'number','des':'桶装水的类型'}
     @param {'name':'num','type':'number','des':'桶装水的数量'}
-    @param {'name':'openid','type':'string','des':'ID'}
+    @param {'name':'openid','type':'string','des':'id'}
 **/
-exports.wxCreateOrder = function(req, res) {
-    logger.info('wxCreateOrder Api Call')
+exports.createAliPrepayOrder = function(req, res) {
+    logger.info('createAliPrepayOrder Api Call')
 
     let type = req.params.type
     let num = req.params.num
@@ -32,7 +32,7 @@ exports.wxCreateOrder = function(req, res) {
       return res.status(200).json({code:1, msg:'参数错误'})
     }
 
-    req.models.payWx.createPreOrder(openid, type, num, req.ip).then(result => {
+    req.models.payAli.createPreOrder(openid, type, num).then(result => {
         if (result) {
             return res.status(200).json(result);
         } else {

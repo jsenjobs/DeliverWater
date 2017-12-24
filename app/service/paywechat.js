@@ -9,12 +9,12 @@ let UUID = require('uuid')
 let WXUtils = require('../utils').WXUtils
 let Redis = require('../db/redis.init')
 
-const appid = process.env.wxappid
-const secret = process.env.wxsecret
-const mchid = process.env.wxmchid
-const spBillCreateIp = process.env.wxspBillCreateIp // 本服务器的外网IP地址
-const notify_url = process.env.wxnotify_url // https 支付成功的通知
-const key = process.env.wxkey // 注：key为商户平台设置的密钥key
+const appid = process.env.wxTinyappid
+const secret = process.env.wxTinysecret
+const mchid = process.env.wxTinymchid
+const spBillCreateIp = process.env.wxTinyspBillCreateIp // 本服务器的外网IP地址
+const notify_url = process.env.wxTinynotify_url // https 支付成功的通知
+const key = process.env.wxTinykey // 注：key为商户平台设置的密钥key
 
 const url_base = "https://api.weixin.qq.com/sns/jscode2session?appid="+appid+"&secret="+secret
 const url_pre_order = "https://api.mch.weixin.qq.com/pay/unifiedorder" // https post
@@ -46,16 +46,17 @@ const price = [2000, 1000, 500]
 // url是该小程序链接的socket的http ip地址
 exports.createPreOrder = function(openid, type, num) {
 	return exports.mockCreatePreOrder(openid, type, num)
-  let uuid = UUID.v1()
+	let uuid = UUID.v1().replace(/-+/g, "")
 	let date = Date.now()
-	let trade_no = "dilver-water-" + uuid
+	let trade_no = uuid
 	// store the pre order to redis
 	let content = {
 		_id: trade_no,
 		openid: openid,
-		type: (type || type === 0) ? type : 1,
-		num: num > 0 && 2000 > num ? num:1,
+		type: type ,
+		num: num ,
 		date: date,
+		platform: 'wxTiny',
 		stat: 3
 	}
 	content = JSON.stringify(content)
