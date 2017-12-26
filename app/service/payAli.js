@@ -7,7 +7,7 @@ let UUID = require('uuid')
 const fs = require('fs')
 let Utils = require('../utils').Utils
 let Promise = require('bluebird')
-
+let UserClient = require('../model').userClient
 
 
 const EN = process.env
@@ -41,37 +41,52 @@ let biz_content = {
 const price = [parseInt(EN.feebig), parseInt(EN.feemiddle), parseInt(EN.feesmall)]
 let Redis = require('../db/redis.init')
 exports.createPreOrder = function(openid, type, num) {
-  let date = Date.now()
-  let out_trade_no = UUID.v1().replace(/-+/g, "")
-	let fee = (parseFloat(price[type] * num) / 100.0) + ''
-	// store the pre order to redis
-	let content = {
-		_id: out_trade_no,
-		openid: openid,
-		type: type ,
-		num: num ,
-		date: date,
-		platform: 'ali',
-		fee: fee,
-		stat: 3
-	}
-  content = JSON.stringify(content)
-  return Redis.SetAndOutRemove('dw:pre:order:' + out_trade_no, content, 36000).then(ok => {
-    if(!ok) {
-      return {code:1, msg:'预存储订单失败'}
-    }
+	return UserClient.find({_id:openid}).then(user => {
+		if(user) {
 
-		biz_content.total_amount = fee
-		biz_content.out_trade_no = out_trade_no
-		config.biz_content = JSON.stringify(biz_content)
-    config.timestamp = createTimeStamp(date)
 
-		config.sign = sign(config)
-    let last = encodeParams(config)
-		last = raw2(last)
-    console.log(last)
-    return {code:0, data: last}
-  })
+			  let date = Date.now()
+			  let out_trade_no = UUID.v1().replace(/-+/g, "")
+				let fee = (parseFloat(price[type] * num) / 100.0) + ''
+				// store the pre order to redis
+				let content = {
+					_id: out_trade_no,
+					openid: openid,
+					type: type ,
+					num: num ,
+					date: date,
+					platform: 'ali',
+          name: user.name,
+          address: user.adddress,
+					fee: fee,
+					stat: 3
+				}
+			  content = JSON.stringify(content)
+			  return Redis.SetAndOutRemove('dw:pre:order:' + out_trade_no, content, 36000).then(ok => {
+			    if(!ok) {
+			      return {code:1, msg:'预存储订单失败'}
+			    }
+
+					biz_content.total_amount = fee
+					biz_content.out_trade_no = out_trade_no
+					config.biz_content = JSON.stringify(biz_content)
+			    config.timestamp = createTimeStamp(date)
+
+					config.sign = sign(config)
+			    let last = encodeParams(config)
+					last = raw2(last)
+			    console.log(last)
+			    return {code:0, data: last}
+			  })
+
+
+		} else {
+			return {code:1, msg:'用户不存在-' + openid}
+		}
+	}).error(e => {
+		return {code:1, msg:'mongo error', err:e}
+	})
+
 }
 
 

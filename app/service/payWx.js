@@ -5,6 +5,7 @@ fetch.Promise = require('bluebird')
 let _ = require('lodash')
 let querystring = require('querystring')
 let UUID = require('uuid')
+let UserClient = require('../model').userClient
 
 let EN = process.env
 let key = EN.wxsecret
@@ -28,78 +29,93 @@ const url_pre_order = "https://api.mch.weixin.qq.com/pay/unifiedorder" // https 
 let Redis = require('../db/redis.init')
 const price = [parseInt(EN.feebig), parseInt(EN.feemiddle), parseInt(EN.feesmall)]
 exports.createPreOrder = function(openid, type, num, spBillCreateIp){
-  let date = Date.now()
-  let out_trade_no = UUID.v1().replace(/-+/g, "")
-  let nonce_str = createNonceStr()
-	let fee = (price[type] * num) + ''
-  // store the pre order to redis
-  let content = {
-    _id: out_trade_no,
-    openid: openid,
-    type: type ,
-    num: num ,
-    date: date,
-    platform: 'wx',
-		fee: fee,
-    stat: 3
-  }
+  return UserClient.find({_id: openid}).then(user => {
+    if(user) {
 
-  content = JSON.stringify(content)
-  return Redis.SetAndOutRemove("dw:pre:order:" + out_trade_no, content, 36000).then(ok => {
-    if(!ok) {
-      return {code:1, msg:'预存储订单失败'}
+
+        let date = Date.now()
+        let out_trade_no = UUID.v1().replace(/-+/g, "")
+        let nonce_str = createNonceStr()
+      	let fee = (price[type] * num) + ''
+        // store the pre order to redis
+        let content = {
+          _id: out_trade_no,
+          openid: openid,
+          type: type ,
+          num: num ,
+          date: date,
+          platform: 'wx',
+          name: user.name,
+          address: user.adddress,
+      		fee: fee,
+          stat: 3
+        }
+
+        content = JSON.stringify(content)
+        return Redis.SetAndOutRemove("dw:pre:order:" + out_trade_no, content, 36000).then(ok => {
+          if(!ok) {
+            return {code:1, msg:'预存储订单失败'}
+          }
+
+          config.nonce_str = nonce_str
+          config.out_trade_no = out_trade_no
+          config.total_fee = fee
+          config.spbill_create_ip = spBillCreateIp
+
+          let formData = createFormData(config, sign(config))
+          console.log(formData)
+
+          return fetch(url_pre_order, _.assign(PostOpts, {body: formData})).then(res => {
+            if(res.status === 200) {
+              return res.text()
+            } else {
+              return false
+            }
+          }).then(xmldata => {
+            if(xmldata) {
+              console.log("这是微信的统一下单方法https返回", xmldata)
+              let prepay_id = getXMLNodeValue('prepay_id', xmldata)
+              prepay_id = getPrepayID(prepay_id)
+              if(!prepay_id) {
+                return {code:1, msg:'prepay_id is null'}
+              }
+
+              // 签名
+              let timeStamp = createTimeStamp(date)
+              config2.nonce_str = nonce_str
+              config2.package = 'Sign=WXPay'
+              config2.prepayid = prepay_id
+              config2.timestamp = timeStamp
+              let paySign = sign(config2)
+
+              return {
+                code:0,
+                out_trade_no: out_trade_no,
+                nonce_str: nonce_str,
+                prepay_id: prepay_id,
+                timeStamp: timeStamp,
+                paySign: paySign
+              }
+            } else {
+              return {code:1, msg:'创建订单失败-2', err:res.status}
+            }
+          }).error(e => {
+            return {code:1, msg:'fetch error', err:e}
+          })
+
+        }).error(e => {
+            logger.error('保存订单失败：' + e)
+            return {code:1, msg:'保存订单失败', err:e}
+        })
+
+
+    } else {
+      return {code:1, msg:'用户不存在-' + openid}
     }
-
-    config.nonce_str = nonce_str
-    config.out_trade_no = out_trade_no
-    config.total_fee = fee
-    config.spbill_create_ip = spBillCreateIp
-
-    let formData = createFormData(config, sign(config))
-    console.log(formData)
-
-    return fetch(url_pre_order, _.assign(PostOpts, {body: formData})).then(res => {
-      if(res.status === 200) {
-        return res.text()
-      } else {
-        return false
-      }
-    }).then(xmldata => {
-      if(xmldata) {
-        console.log("这是微信的统一下单方法https返回", xmldata)
-        let prepay_id = getXMLNodeValue('prepay_id', xmldata)
-        prepay_id = getPrepayID(prepay_id)
-        if(!prepay_id) {
-          return {code:1, msg:'prepay_id is null'}
-        }
-
-        // 签名
-        let timeStamp = createTimeStamp(date)
-        config2.nonce_str = nonce_str
-        config2.package = 'Sign=WXPay'
-        config2.prepayid = prepay_id
-        config2.timestamp = timeStamp
-        let paySign = sign(config2)
-
-        return {
-          code:0,
-          out_trade_no: out_trade_no,
-          nonce_str: nonce_str,
-          prepay_id: prepay_id,
-          timeStamp: timeStamp,
-          paySign: paySign
-        }
-      } else {
-        return {code:1, msg:'创建订单失败-2', err:res.status}
-      }
-    }).error(e => {
-      return {code:1, msg:'fetch error', err:e}
-    })
-
   }).error(e => {
-      logger.error('保存订单失败：' + e)
-      return {code:1, msg:'保存订单失败', err:e}
+    return {code:1, msg:'mongo error', err:e}
   })
+
 
 }
 
