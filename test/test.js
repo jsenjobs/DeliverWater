@@ -5,9 +5,9 @@ const crypto = require('crypto')
 let conf = require('../app/conf')
 let path = require('path')
 conf.boot(path.resolve('./etc'), path.resolve('../etc'))
-let alipaypublickey = process.env.alialipaypublickey //
-alipaypublickey = createPrivatePem(alipaypublickey, '\n', 64)
-alipaypublickey = "-----BEGIN PUBLIC KEY-----\n" + alipaypublickey + '-----END PUBLIC KEY-----\n'
+let apppublickey = process.env.aliapppublickey //
+apppublickey = createPrivatePem(apppublickey, '\n', 64)
+apppublickey = "-----BEGIN PUBLIC KEY-----\n" + apppublickey + '-----END PUBLIC KEY-----\n'
 let appprivatekey = process.env.aliappprivatekey //
 appprivatekey = createPrivatePem(appprivatekey, '\n', 64)
 appprivatekey = "-----BEGIN PRIVATE KEY-----\n" + appprivatekey + '-----END PRIVATE KEY-----\n'
@@ -24,7 +24,7 @@ function sign(prestr) {
 function verify(sdata, sign) {
   let verifier = crypto.createVerify('RSA-SHA1')
   verifier.update(new Buffer(sdata, 'utf-8'))
-  return verifier.verify(alipaypublickey, sign, 'base64')
+  return verifier.verify(apppublickey, sign, 'base64')
 }
 
 let sg = sign('a=123')

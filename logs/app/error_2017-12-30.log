@@ -1,0 +1,32 @@
+2017-12-30 10:12:32.240 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-30 10:12:32.244 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.301 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.405 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.559 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.763 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.824 [main] ERROR MongoseIniter - [object Object]
+2017-12-30 10:12:32.826 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.881 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:32.989 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.015 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.144 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.318 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.346 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.602 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.671 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:33.903 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:34.074 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:34.260 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:34.530 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:34.666 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:35.031 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:35.122 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:35.588 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:35.628 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:36.179 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:36.191 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-30 10:12:11.802 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-30 10:12:12.376 [main] ERROR MongoseIniter - [object Object]
+2017-12-30 10:12:32.666 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-30 10:12:33.235 [main] ERROR MongoseIniter - [object Object]
+2017-12-30 10:12:46.980 [main] ERROR MongoseIniter - MongoError: read ECONNRESET

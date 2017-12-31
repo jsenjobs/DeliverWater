@@ -8,10 +8,10 @@ const fs = require('fs')
 let Utils = require('../utils').Utils
 let Promise = require('bluebird')
 let UserClient = require('../model').userClient
+let PreOrder = require('../model').porder
 
 
 const EN = process.env
-const alipaypublickey = EN.alialipaypublickey
 
 let config = {
 	alipay_sdk: 'alipay-sdk-java-dynamicVersionNo',
@@ -31,7 +31,7 @@ let biz_content = {
 	subject: EN.alisubject,
 	product_code: EN.aliproductCode,
 	timeout_express: '30m',
-	seller_id: EN.sellerid,
+	// seller_id: EN.sellerid,
 	// out_trade_no: '',
 	// total_amount: '0.01'
 }
@@ -41,9 +41,8 @@ let biz_content = {
 const price = [parseInt(EN.feebig), parseInt(EN.feemiddle), parseInt(EN.feesmall)]
 let Redis = require('../db/redis.init')
 exports.createPreOrder = function(openid, type, num) {
-	return UserClient.find({_id:openid}).then(user => {
+	return UserClient.findOne({_id:openid}).then(user => {
 		if(user) {
-
 
 			  let date = Date.now()
 			  let out_trade_no = UUID.v1().replace(/-+/g, "")
@@ -57,34 +56,38 @@ exports.createPreOrder = function(openid, type, num) {
 					date: date,
 					platform: 'ali',
           name: user.name,
-          address: user.adddress,
+          address: user.address,
 					fee: fee,
 					stat: 3
 				}
-			  content = JSON.stringify(content)
-			  return Redis.SetAndOutRemove('dw:pre:order:' + out_trade_no, content, 36000).then(ok => {
+				return new PreOrder(content).save().then(ok => {
 			    if(!ok) {
 			      return {code:1, msg:'预存储订单失败'}
 			    }
-
 					biz_content.total_amount = fee
 					biz_content.out_trade_no = out_trade_no
 					config.biz_content = JSON.stringify(biz_content)
-			    config.timestamp = createTimeStamp(date)
+					config.timestamp = createTimeStamp(date)
 
 					config.sign = sign(config)
-			    let last = encodeParams(config)
+					let last = encodeParams(config)
 					last = raw2(last)
-			    console.log(last)
-			    return {code:0, data: last}
-			  })
-
+					console.log(last)
+					return {code:0, data: last}
+				}).error(e => {
+            logger.error('保存订单失败：' + e)
+            return {code:1, msg:'保存订单失败', err:e}
+        })
 
 		} else {
 			return {code:1, msg:'用户不存在-' + openid}
 		}
 	}).error(e => {
+		console.log(3)
 		return {code:1, msg:'mongo error', err:e}
+	}).catch(e => {
+
+			console.log(4)
 	})
 
 }
@@ -154,7 +157,7 @@ function encodeParams(params) {
 // 时间戳产生函数
 let moment = require('moment')
 function createTimeStamp (date) {
-	return moment(date).format('yyyy-MM-dd HH:mm:ss')
+	return moment(date).format('YYYY-MM-DD HH:mm:ss')
 }
 
 

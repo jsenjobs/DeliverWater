@@ -1,5 +1,5 @@
 let cluster = require('cluster')
-let numCPUS = 1
+let numCPUS = require('os').cpus().length;
 let path = require('path')
 
 let conf = require('./app/conf')

@@ -6,6 +6,7 @@ let _ = require('lodash')
 let querystring = require('querystring')
 let UUID = require('uuid')
 let UserClient = require('../model').userClient
+let PreOrder = require('../model').porder
 
 let EN = process.env
 let key = EN.wxsecret
@@ -14,7 +15,9 @@ let config = {
   mch_id: EN.wxmch_id,
   body: EN.wxbody,
   notify_url: EN.wxnotify_url,
-  trade_type: 'APP'
+  trade_type: 'APP',
+  spbill_create_ip: EN.wxspBillCreateIp,
+  attach: EN.wxAttach
 }
 let config2 = {
   appid: EN.wxappid,
@@ -51,20 +54,20 @@ exports.createPreOrder = function(openid, type, num, spBillCreateIp){
           stat: 3
         }
 
-        content = JSON.stringify(content)
-        return Redis.SetAndOutRemove("dw:pre:order:" + out_trade_no, content, 36000).then(ok => {
-          if(!ok) {
-            return {code:1, msg:'预存储订单失败'}
-          }
+        return new PreOrder(content).save().then(ok => {
+			    if(!ok) {
+			      return {code:1, msg:'预存储订单失败'}
+			    }
 
           config.nonce_str = nonce_str
           config.out_trade_no = out_trade_no
-          config.total_fee = fee
-          config.spbill_create_ip = spBillCreateIp
+          config.total_fee = parseInt(fee)
 
-          let formData = createFormData(config, sign(config))
+          let sign0 = sign(config)
+          console.log(sign0)
+          let formData = createFormData(config, sign0)
           console.log(formData)
-
+          // formData = '<xml><appid>wx2421b1c4370ec43b</appid><attach>支付测试</attach><body>商品描述</body><mch_id>10000100</mch_id><nonce_str>b71xw5k4xkxh6pq</nonce_str><notify_url>https://aaa.bigfacewo.com/dwssserverso/order_notify</notify_url><out_trade_no>a774ff50ed6211e7940d93b0403a63b9</out_trade_no><spbill_create_ip>119.23.238.170</spbill_create_ip><total_fee>2000</total_fee><trade_type>APP</trade_type><sign>E7B659D5A83180373BB5D93008E1F282</sign></xml>'
           return fetch(url_pre_order, _.assign(PostOpts, {body: formData})).then(res => {
             if(res.status === 200) {
               return res.text()
@@ -102,12 +105,10 @@ exports.createPreOrder = function(openid, type, num, spBillCreateIp){
           }).error(e => {
             return {code:1, msg:'fetch error', err:e}
           })
-
-        }).error(e => {
+				}).error(e => {
             logger.error('保存订单失败：' + e)
             return {code:1, msg:'保存订单失败', err:e}
         })
-
 
     } else {
       return {code:1, msg:'用户不存在-' + openid}
@@ -131,6 +132,7 @@ const crypto = require('crypto')
 function sign(params) {
   console.log("签名验证的参数", params)
   let str= raw(params) + '&key=' + key
+  console.log(str)
   return crypto.createHash('md5').update(str,'utf8').digest('hex').toUpperCase()
 }
 function raw (args) {
@@ -151,6 +153,7 @@ function createFormData(params, sign) {
 
     let formData = "<xml>"
     formData += "<appid>" + params.appid + "</appid>"
+    formData += "<attach>" + params.attach + "</attach>"
     formData += "<body>" + params.body + "</body>"
     formData += "<mch_id>" + params.mch_id + "</mch_id>"
     formData += "<nonce_str>" + params.nonce_str + "</nonce_str>"
@@ -165,6 +168,7 @@ function createFormData(params, sign) {
 }
 // 随机字符串产生函数
  function createNonceStr() {
+   //return "b71xw5k4xkxh6pq"
     return Math.random().toString(36).substr(2, 15)
 }
 

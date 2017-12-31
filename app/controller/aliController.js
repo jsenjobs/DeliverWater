@@ -33,6 +33,7 @@ exports.createAliPrepayOrder = function(req, res) {
     }
 
     req.models.payAli.createPreOrder(openid, type, num).then(result => {
+
         if (result) {
             return res.status(200).json(result);
         } else {
